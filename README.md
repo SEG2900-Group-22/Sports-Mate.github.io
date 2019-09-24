@@ -13,4 +13,4 @@ Dan Ngendahayo - dngen029@uottawa.ca
 
 Wyse Ebbah - webba040@uOttawa.ca
 
-Michael Kagnew - 
+Michael Kagnew - mkagn052@uottawa.ca
