@@ -15,4 +15,9 @@ Wyse Ebbah - webba040@uOttawa.ca
 
 Michael Kagnew - mkagn052@uottawa.ca
 
+<<<<<<< HEAD
 Hello
+=======
+Farina Salman - fsalm029@uottawa.ca
+>>>>>>> 6d62edd81dbc96497dabb7cf02c015c803e532fb
+ helllllllllllllo
