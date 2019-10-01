@@ -15,6 +15,6 @@ Wyse Ebbah - webba040@uOttawa.ca
 
 Michael Kagnew - mkagn052@uottawa.ca
 
-Farina Salman - fsalm029@uottawa.ca
+Farina Salman - fsalm029@uottawa.ca - 300129324
 
 Emma Dobson Takoff - 
