@@ -1,5 +1,5 @@
 # SEG2900-22
-Company Name: SportsMate Inc
+Company Name: SportsMate Inc.
 
 Product Name: SportsMate
 
