@@ -13,8 +13,8 @@ Dan Ngendahayo - dngen029@uottawa.ca - 300108224
 
 Wyse Ebbah - webba040@uOttawa.ca -300141935
 
-Michael Kagnew - mkagn052@uottawa.ca
+Michael Kagnew - mkagn052@uottawa.ca - 300113347
 
-Farina Salman - fsalm029@uottawa.ca
+Farina Salman - fsalm029@uottawa.ca - 300129324
 
 Emma Dobson Takoff - edobs010@uottawa.ca - 300108505
