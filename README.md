@@ -17,4 +17,4 @@ Michael Kagnew - mkagn052@uottawa.ca
 
 Farina Salman - fsalm029@uottawa.ca
 
-Emma - 
+Emma Dobson Takoff - 
