@@ -4,7 +4,7 @@ Colours
 ----------
 We want to use a vibrant color theme. This is because we want to emulate the excitement associated with sports.
 
-- #00FE1A
+- #1CC283
 - #14DE40
 - #2EB29E
 - #63C2BE
