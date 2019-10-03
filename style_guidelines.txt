@@ -12,7 +12,7 @@ We want to use a vibrant color theme. This is because we want to emulate the exc
 
 Iconogrophy
 ----------
-
+Icons will be simple and minimalistic. They will have slight shading to give the feel of them being 3D despite htem being 2D.
 
 Typogrophy
 ----------
@@ -20,6 +20,8 @@ We will be using Montserrat from Google Fonts
 
 Links
 ----------
+Links will not defaultly be underlined but they will be blue. They will become underlined when hovered over.
 
 Buttons
 ----------
+The buttons will not have borders. The main sighup button will be rounded but the other buttons will be squares.
