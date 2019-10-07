@@ -1,4 +1,15 @@
-body {background-color:#00FE1A;
-      font-family: 'Montserrat', sans-serif;}
+body {background-color: #00FE1A;
+  font-family: 'Montserrat', sans-serif;}
 
-a{text-decoration:none;}
+.navBar{overflow:hidden;}
+
+.navBar a{float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;}
+
+.topNav a{float: right;}
+
+
+  
