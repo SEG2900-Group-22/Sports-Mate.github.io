@@ -6,6 +6,7 @@ h1{
   font-size: 80px;
   font-family: 'Pontano Sans', sans-serif;
   border: 2px white;
+  padding: 25px;
 }
 .navBar{overflow:hidden;}
 
