@@ -1,6 +1,13 @@
 body {background-color: #9FE3E2;
   font-family: 'Montserrat', sans-serif;}
-
+h1{
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-family: 'Pontano Sans', sans-serif;
+  border: 2px white;
+  padding: 25px;
+}
 .navBar{overflow:hidden;}
 
 .navBar a{float: left;
