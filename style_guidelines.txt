@@ -1,8 +1,13 @@
 Overall look and feel of SportsMate
+-----------------------------------
+
+The overall look and feel of SportsMate will be simplistic and easy to navigate, but will include bright colours to reflect the excitement of playing sports.
+
 
 Colours
 ----------
-We want to use a vibrant color theme. This is because we want to emulate the excitement associated with sports.
+We want to use a vibrant colour theme to emulate the excitement associated with sports.
+The following are our colour swatches:
 
 - #1CC283
 - #14DE40
@@ -12,16 +17,16 @@ We want to use a vibrant color theme. This is because we want to emulate the exc
 
 Iconogrophy
 ----------
-Icons will be simple and minimalistic. They will have slight shading to give the feel of them being 3D despite htem being 2D.
+Icons will be simple and minimalistic. They will have slight shading to give the feel of them being 3D despite them being 2D.
 
 Typogrophy
 ----------
-We will be using Montserrat from Google Fonts
+We will be using Montserrat from Google Fonts.
 
 Links
 ----------
-Links will not defaultly be underlined but they will be blue. They will become underlined when hovered over.
+Links will not be underlined by default, but they will be blue. They will become underlined when hovered over.
 
 Buttons
 ----------
-The buttons will not have borders. The main sighup button will be rounded but the other buttons will be squares.
+The buttons will not have borders. The main signup button will be rounded but the other buttons will be squares. We will make the signup button stand out to the user to draw their attention towards it.
