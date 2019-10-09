@@ -18,8 +18,9 @@ h1{
 
 .topNav a{float: right;}
 
-.L/R sec{
+ .sec{
 background-color: red;
+
 }
 
 #logo {width:20px;}
