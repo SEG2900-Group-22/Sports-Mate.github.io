@@ -10,22 +10,18 @@ h1{
 }
 .navBar{overflow:hidden;}
 
-.navBar a{float: left;
+.navBar a{float: right;
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 14px 16px;}
+  padding: 14px 16px;
+
+}
 
 .topNav a{float: right;}
 
-<<<<<<< HEAD
 .L/R sec{
 background-color: red;
-=======
- .sec{
-background-color: red;
-
->>>>>>> 4ac6a499b9ac7104ec02ceef92858dd8f15f793d
 }
 
 #logo {width:20px;}
