@@ -20,9 +20,19 @@ h1{
 
  .sec{
 background-color: red;
+float:left;
+width: 50%;
+height: 100%;
 
 }
+.sec1{
+ 
+  background-color:yellow;
+float:right;
+  width: 50%;
+  height: 100%;
+  
+}
 
-#logo {width:20px;}
 
   
