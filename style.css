@@ -4,7 +4,7 @@ h1{
   text-align: center;
   color: white;
   font-size: 80px;
-  font-family: 'Pontano Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border: 2px white;
   padding: 25px;
 }
@@ -17,6 +17,16 @@ h1{
   padding: 14px 16px;}
 
 .topNav a{float: right;}
+
+<<<<<<< HEAD
+.L/R sec{
+background-color: red;
+=======
+ .sec{
+background-color: red;
+
+>>>>>>> 4ac6a499b9ac7104ec02ceef92858dd8f15f793d
+}
 
 #logo {width:20px;}
 
