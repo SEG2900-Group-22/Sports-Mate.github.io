@@ -18,26 +18,28 @@ h1{
 
 .topNav a{float: right;}
 
-<<<<<<< HEAD
-.L/R sec{
-background-color: red;
-=======
  .sec{
 background-color: red;
 float:left;
 width: 50%;
 height: 100%;
 
->>>>>>> 4ac6a499b9ac7104ec02ceef92858dd8f15f793d
 }
 .sec1{
  
   background-color:yellow;
 float:right;
+
   width: 50%;
   height: 100%;
   
 }
+.content{
+  position: absolute;
+  width:100%;
+  bottom:0%;
 
+
+}
 
   
