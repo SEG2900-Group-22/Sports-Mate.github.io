@@ -20,10 +20,28 @@ h1{
 
 .topNav a{float: right;}
 
-.L/R sec{
+ .sec{
 background-color: red;
-}
+float:left;
+width: 50%;
+height: 100%;
 
-#logo {width:20px;}
+}
+.sec1{
+ 
+  background-color:yellow;
+float:right;
+
+  width: 50%;
+  height: 100%;
+  
+}
+.content{
+  position: absolute;
+  width:100%;
+  bottom:0%;
+
+
+}
 
   
