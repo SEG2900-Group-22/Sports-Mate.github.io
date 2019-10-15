@@ -10,11 +10,13 @@ h1{
 }
 .navBar{overflow:hidden;}
 
-.navBar a{float: left;
+.navBar a{float: right;
   display: block;
   text-align: center;
   text-decoration: none;
-  padding: 14px 16px;}
+  padding: 14px 16px;
+
+}
 
 .topNav a{float: right;}
 
