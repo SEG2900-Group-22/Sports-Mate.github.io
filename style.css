@@ -13,7 +13,7 @@ a:hover{text-decoration: underline;}
 
 .navBar{overflow:hidden;}
 
-.navBar a{float: right;
+.navBar {float: right;
   display: block;
   text-align: center;
   text-decoration: none;
