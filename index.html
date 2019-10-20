@@ -9,17 +9,21 @@
         <script scr="script.js"></script>
     </head>
     <body>
+
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <div class="navBar">
             <a href="index.html"><img src="images/logo.png" height="50px" width="50px"></a>
-            <nav class="topNav">
-                <a href="index.html">Home</a> 
+            <div class="topNav" id="myTopNav">
+                <a href="index.html" class="active">Home</a> 
                 <a href="features.html">Features</a>
                 <a href="team.html">Team Page</a> 
                 <a href="pricing.html">Pricing</a>
                 <a id="login">Login</a>
-                
-               
-            </nav>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
     
             <div class="slideshow-container">
