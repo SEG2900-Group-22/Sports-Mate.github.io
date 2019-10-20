@@ -9,7 +9,8 @@ h1{
   padding: 25px;
 }
 
-.productDescription{
+.productDescription {
+  text-align: center;
   color: white;
 }
 
