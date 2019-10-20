@@ -32,8 +32,9 @@ height: 45vh;
 display: flex;
 flex-direction: column;
 
- 
 }
+
+* {box-sizing:border-box}
 
 .slideshow-container {
  max-width: 1000px;
