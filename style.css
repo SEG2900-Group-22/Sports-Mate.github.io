@@ -42,9 +42,7 @@ flex-direction: column;
  margin: auto;
 }
 
-.mySlides {
-  display: none;
-}
+
 
 .fade {
  -webkit-animation-name: fade;
