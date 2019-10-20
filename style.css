@@ -9,6 +9,10 @@ h1{
   padding: 25px;
 }
 
+.productDescription{
+  color: white;
+}
+
 a:hover{text-decoration: underline;}
 
 .navBar{overflow:hidden;}
