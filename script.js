@@ -1,4 +1,4 @@
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides();
 
 function showSlides() {
@@ -10,4 +10,4 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1} 
   slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 2000);}
+  setTimeout(showSlides, 3000);}
