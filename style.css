@@ -14,6 +14,11 @@ h1{
   color: white;
 }
 
+.logo {
+  text-align: left;
+  float: left;
+}
+
 /* Background colour for navigation */
 .topNav {
   width: 100%;
