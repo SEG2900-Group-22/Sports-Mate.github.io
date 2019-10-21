@@ -8,6 +8,11 @@ h1{
   border: 2px white;
   padding: 25px;
 }
+h2{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px;
+}
 
 .productDescription {
   text-align: center;
