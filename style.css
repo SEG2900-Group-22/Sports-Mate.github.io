@@ -14,26 +14,16 @@ h1{
   color: white;
 }
 
-a:hover{text-decoration: underline;}
-
-.navBar{overflow:hidden;}
-
-.navBar a{float: right;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  padding: 14px 16px;
-
-}
-
+/* Background colour for navigation */
 .topNav {
   background-color: #9FE3E2;
   overflow: hidden;
 }
 
+/* Styling links in navigation */
 .topNav a{
   float: right;
+  display: block;
   color: white;
   text-align: center;
   padding: 10px 12px;
@@ -41,19 +31,47 @@ a:hover{text-decoration: underline;}
   font-size: 19px;
 }
 
+/* Change link colour when hovering over it */
 .topNav a:hover {
   background-color: #63C2BE;
   color: white;
 }
 
+/* Highlight current page */
 .topNav a.active {
-  background-colour: #63C2BE;
+  background-color: #63C2BE;
   color: white;
 }
 
+/* Hide icon that should be displayed on small screens only */
 .topNav .icon {
   display: none;
 }
+
+/* If screen is less than 600px only show icon */
+@media screen and (max-width: 600px) {
+  .topNav a:not(:first-child) {display: none;}
+  .topNav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* If user clicks icon, they can see all other links */
+@media screen and (max-width: 600px) {
+  .topNav.responsive {position: relative;}
+  .topNav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 
  .sec{
 background-color: red;
