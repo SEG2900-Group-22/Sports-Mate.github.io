@@ -14,10 +14,10 @@ function showSlides() {
 
   /* Navigation bar */
   function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "topNav") {
       x.className += " responsive";
     } else {
-      x.className = "topnav";
+      x.className = "topNav";
     }
   }
