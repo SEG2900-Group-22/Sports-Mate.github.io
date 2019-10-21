@@ -17,7 +17,7 @@ The following are our colour swatches:
 
 Iconogrophy
 ----------
-Icons will be simple and minimalistic. They will have slight shading to give the feel of them being 3D despite them being 2D.
+Icons will be simple and minimalistic. They will be white to match the simplicity of the website.
 
 Typogrophy
 ----------
@@ -29,4 +29,5 @@ Links will not be underlined by default, but they will be blue. They will become
 
 Buttons
 ----------
-The buttons will not have borders. The main signup button will be rounded but the other buttons will be squares. We will make the signup button stand out to the user to draw their attention towards it.
+The buttons will not have borders. The main signup button will be rounded but the other buttons will be squares.
+We will make the signup button stand out to the user to draw their attention towards it.
