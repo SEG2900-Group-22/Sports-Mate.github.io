@@ -92,7 +92,7 @@ flex-direction: column;
 }
 
 .mySlides {
-  display: none;
+  display: block;
 }
 
 .fade {
