@@ -1,24 +1,17 @@
-var slideIndex = 1;
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
 
-function currentSlide(n){
-  alert("ok")
-  showSlides(slideIndex=n)
-  
-
-}
-function showSlides(n) {
+function carousel() {
   var i;
-  var slides = document.getElementsByClassName("mySlides fade");
-  alert(slides.length)
-  if (n > slides.length) {slideIndex = 1} 
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-  if (n < 1) {slideIndex = slides.length}
-  
-  
-  
-  slides[slideIndex-1].style.display = "block"; }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
 
   /* Navigation bar */
   function myFunction() {
