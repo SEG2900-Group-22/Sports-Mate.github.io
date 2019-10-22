@@ -1,3 +1,4 @@
+/* Automatic slideshow */
 var slideIndex = 0;
 showSlides();
 
