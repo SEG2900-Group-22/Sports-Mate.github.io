@@ -14,7 +14,7 @@
             <a href="index.html"><img src="images/logo.png" height="50px" width="50px"></a>
             <h2>SportsMate</h2>
             <nav class="topNav">
-                <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a> 
+                <a href="index.html" class="active"><i class="fa fa-fw fa-home" ></i> Home</a> 
                 <a href="features.html"><i class="fa fa-info-circle"></i> Features</a>
                 <a href="team.html"><i class="fa fa-address-book"></i> Team</a> 
                 <a href="pricing.html"><i class="fa fa-credit-card-alt"> Pricing</i></a>
@@ -24,31 +24,39 @@
                 </a>
             </div>
     
-            <div class="slideshow-container">
+            <div class="slideshow-container" onmouseover="showSlide()">
 
-                <div class="mySlides">
-                    <img src="images/soccer.jpg" alt="Soccer" style="width: 100%">
+                <div class="mySlides  fade">
+                    <img src="images/soccer.jpg" alt="Soccer" style="width: 100%;" >
                 </div>
 
-                <div class="mySlides">
-                        <img src="images/football.jpg" alt="Soccer" style="width: 100%">
+                <div class="mySlides  fade">
+                        <img src="images/football.jpg" alt="Soccer" style="width: 100%;" >
                     </div>
 
-                <div class="mySlides">
-                        <img src="images/swimming.jpg" alt="Soccer" style="width: 100%">
+                <div class="mySlides  fade">
+                        <img src="images/swimming.jpg" alt="Soccer" style="width: 100%;">
                 </div>
 
-                <div class="mySlides">
-                        <img src="images/tennis.jpg" alt="Soccer" style="width: 100%">
+                <div class="mySlides  fade">
+                        <img src="images/tennis.jpg" alt="Soccer" style="width: 100%;">
                 </div>
 
-                <div class="mySlides">
-                        <img src="images/basketball.jpg" alt="Soccer" style="width: 100%">
+                <div class="mySlides  fade">
+                        <img src="images/basketball.jpg" alt="Soccer" style="width: 100%;">
                 </div>
               
 
                 </div>
-
+                <br>
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentIndex(1) "><a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(2)"><a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(3)"><a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(4)"> <a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(5)"><a href=""></a></span>
+                </div>
+                
         <div>
             <h1> Sports Mate</h1>    
             <p> SportsMate is an application for both mobile and desktop devices that allow users to connect with other individuals 
@@ -57,7 +65,35 @@
         </div>
         
         <script>
-            carousel();
+           
+            var myIndex = 0;
+            
+            var lastIndex;
+            function currentIndex(n){
+                myIndex=n
+                showSlide();
+            }
+function showSlide() {
+    var x = document.getElementsByClassName("mySlides");
+    var dots=document.getElementsByClassName("dot"); 
+
+    if (lastIndex==null){
+            x[myIndex-1].style.display="block";
+            dots[myIndex-1].className+=" active"
+            lastIndex=myIndex-1;
+            
+        }else{
+            x[lastIndex].style.display="none";
+            x[myIndex-1].style.display="block";
+            dots[myIndex-1].className+=" active"
+            lastIndex=myIndex-1;
+        }
+        
+  
+}
+
+  
+  
         </script>
      </body>
 </html>
