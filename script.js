@@ -24,7 +24,8 @@ var myIndex = 0;
 
 }
 function closeLogin(){
-    Document.getElementsByClassName("form-popup").style.display="none";
+    
+    $(".form-popup").hide();
 
 }       
 var myIndex = 0;
