@@ -12,17 +12,20 @@
     </head>
 
 <body>
-
-    <nav class="navBar">
-        <a href="index.html"><img src="images/logo.png" height="50px" width="50px"></a>
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="features.html"><li>Features</li></a>
-            <a href="pricing.html"><li>Pricing</li></a>
-            <a href="TeamPage.html"><li>Team Page</li></a>
-        </ul>
-        
-    </nav>
+    <div class="navBar" class="topNav">
+        <a href="index.html"><img src="images/logo.png" height="50px" width="50px" id="logoId" style="background-color: black; margin-left:5px;margin-right:5px;border-radius:10px;"></a>
+        <h2>SportsMate</h2>
+        <div class="topNav">
+            <a href="index.html" class="active"><i class="fa fa-fw fa-home" ></i> Home</a> 
+            <a href="features.html"><i class="fa fa-info-circle"></i> Features</a>
+            <a href="team.html"><i class="fa fa-address-book"></i> Team</a> 
+            <a href="pricing.html"><i class="fa fa-credit-card-alt"> Pricing</i></a>
+            <a onclick="showLogin()"class="glyphicon glyphicon-user"id="login">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+            </a> 
+        </div>
+    </div>
     <div> Become a Premium User!!!<div>
     <div class="priceOption">
         <h3>Amateur</h3>
