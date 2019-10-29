@@ -312,23 +312,6 @@ list-style-type: circle;
 
 text-align: left;
 
-<<<<<<< HEAD
-}
-
-#video{
-  right: 0;
-  float: right;
-  position: absolute;
-  bottom: 0;
-  background-color: blue;
-  
-}
-@-webkit-keyframes move {
- 0%{
-  opacity: 1;
-  bottom:27vh;
-=======
->>>>>>> 528482b10fb9d10c6805f6a9302eaf8a9956807d
 
 
 }
