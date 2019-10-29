@@ -66,6 +66,7 @@ h2{
   text-align: left;
   float: left;
   color:#000000;
+
 }
 
 
@@ -74,6 +75,8 @@ h2{
   width: 100%;
   background-color: #9FE3E2;
   overflow: hidden;
+  top:50%;
+  
 }
 
 /* Styling links in navigation */
@@ -776,4 +779,117 @@ text-align: center;
 
 
    }
+   #submit-btn:hover{
+    cursor: pointer;
+   
+
+   }
+  .option-container{
+  
+   width: 100%;
+    height: 80vh;
+    display: flex;
+    margin:0% 5%;
+    margin-left: 0%;
+    margin-top:3%;
+    padding:0%;
+
+  }
+  .Option1{
+background-color:white ;
+border:2px solid slategray;
+display: block;
+
+float:left;
+width: 33%;
+margin:2%  2%;
+
+padding-bottom:0%;
+text-align: center;
+transition:400ms;
+animation-name:zoomin;
+animation-duration: 2s;
+  }
+  @keyframes zoomin{
+    from{transform:scaleZ(0.8);}
+    to{transform:scaleZ(1)}
+
+  }
+  .Option3{
+    background-color:white ;
+    border:2px solid slategray;
+    display: block;
+    float:right;
+    width: 33%;
+    margin:2% 2%;
+   padding-bottom:0%;
+    text-align: center;
+    transition:400ms;
+    animation-name:zoomin;
+animation-duration: 2s;
+
+  }
+  .Option2{
+    background-color:white ;
+    border:2px solid slategray;
+    display: block;
     
+    width: 33%;
+    margin:1% 2%;
+    margin-bottom:1%;
+   padding-bottom:0%;
+    text-align: center;
+    transition:400ms;
+    animation-name:zoomin;
+animation-duration: 2s;
+  }
+  .top-option{
+   width: 100%;height: 25%;
+    border-bottom:1px solid black;
+   text-align: center;
+   margin-top:0%;
+   background-color:#63C2BE;
+   color:white;
+   padding-top:3%;
+   padding-bottom: 3%;
+
+  }
+  .Option1:hover, .Option2:hover, .Option3:hover{
+    transform:scale(1.1);
+  }
+  li{
+    font-size: 14pt;
+    margin-top:5%;
+    padding:5% 0%;
+    margin-left:0%;
+    text-align:Center;
+    background-color: aliceblue;
+    list-style-type: none;
+    border:0.5px solid slategray
+  }
+  p{
+    font-size: 20pt;
+  }
+  ul{
+    margin:0% 0% 4% 0%;
+    padding:0%;
+  }
+  .start{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+    border-radius:30px;
+    width: 40%;
+    padding:5%;
+    margin-left:30%;
+  }
+  .start:hover{
+    background-color: lightseagreen;
+    color:white;
+  }
+  .pricing-header{
+    text-align: center;
+    padding:0%;
+    margin-bottom:0%;
+
+  }
