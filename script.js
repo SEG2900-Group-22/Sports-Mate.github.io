@@ -1,16 +1,7 @@
-var slideIndex = 0;
-showSlides();
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
-  slides[slideIndex-1].style.display = "block"; 
-  setTimeout(showSlides, 3000);}
+
 
   /* Navigation bar */
   function myFunction() {
@@ -21,4 +12,68 @@ function showSlides() {
       x.className = "topNav";
     }
   }
+  function showLogin(){
+    
+   
+    $(".content").css("filter","blur(2px)");
+   
+    
+    $(".form-popup").show();
+    
+   
+
+}
+function closeLogin(){
+    
+    $(".form-popup").hide();
+
+} 
+      
+var myIndex = 0;
+            
+var lastIndex=0;
+var x = document.getElementsByClassName("mySlides");
+var dots=document.getElementsByClassName("dot"); 
+currentIndex(1) ;
+var c=setInterval(carousel,6000);
+ 
+function currentIndex(n){
+    myIndex=n
+    dots[lastIndex].className=dots[lastIndex].className.replace(" active","");
+    x[lastIndex].style.display="none";
+    
+    showSlide();
+    
+   
+    setTimeout(showSlide,6000)
+}
+
+function carousel(){
+   
+
+   
+    if(myIndex>=document.getElementsByClassName('mySlides').length){myIndex=0;}
+    
+    myIndex++;
+   
+   showSlide();
+   setTimeout(showSlide,6000); 
   
+    
+}
+
+function showSlide() {
+changeActive()
+
+x[myIndex-1].style.display="block";
+
+dots[myIndex-1].className+=" active";
+lastIndex=myIndex-1; 
+
+}
+function changeActive(){
+    dots[lastIndex].className=dots[lastIndex].className.replace(" active","");
+    x[lastIndex].style.display="none"; 
+}
+
+

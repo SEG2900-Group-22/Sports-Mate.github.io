@@ -5,57 +5,101 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
         <title>SportsMate</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script scr="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     </head>
     <body>
-            
-            <a class="logo" href="index.html"><img src="images/logo.png" height="50px" width="50px"></a>
+    <div class="content">
+        <div class=" navbar navbar-default navbar-fixed-top" style="background-color: white;">    
+        <div class="navBar" class="topNav" >
+            <a  href="index.html"><img src="images/logo.png" height="50px" width="50px" id="logoId" style="background-color: black; margin:0 5px;border-radius:10px;"></a>
             <h2>SportsMate</h2>
-
-            <div class="topNav" id="myTopNav">
-                <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a> 
+            <div class="topNav navbar-fixed">
+                <a href="index.html" class="active"><i class="fa fa-fw fa-home" ></i> Home</a> 
                 <a href="features.html"><i class="fa fa-info-circle"></i> Features</a>
                 <a href="team.html"><i class="fa fa-address-book"></i> Team</a> 
                 <a href="pricing.html"><i class="fa fa-credit-card-alt"> Pricing</i></a>
-                <a id="login">Login</a>
+                <a onclick="showLogin()"class="glyphicon glyphicon-user"id="login">Login</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
-                </a>
+                </a> 
             </div>
-    
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <img src="images/soccer.jpg" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/football.jpg" alt="Football" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/swimming.jpg" alt="Swimming" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/tennis.jpg" alt="Tennis" style="width:100%">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="images/basketball.jpg" alt="Basketball" style="width:100%">
-                </div>
-
-            </div>
-
-        <div>
-            <h1> SportsMate</h1>    
-            <p class=productDescription> SportsMate is an application for both mobile and desktop devices that allow users to connect with other individuals 
-            in their area looking to organize a sports activity. Users will be able to see the sports demanded in their area, 
-            as well as locations in their region that allows for the sport to be played.</p>
         </div>
     </div>
+        
+                <div class="slideshow-container" onmouseover="showSlide()">
+
+                    <div  class="mySlides">
+                        <img src="images/soccer.jpg" alt="Soccer" style="width: 100%;" >
+                    </div>
+
+                    <div class="mySlides">
+                            <img src="images/football.jpg" alt="Soccer" style="width: 100%;" >
+                        </div>
+
+                    <div class="mySlides">
+                            <img src="images/swimming.jpg" alt="Soccer" style="width: 100%;">
+                    </div>
+
+                    <div class="mySlides">
+                            <img src="images/tennis.jpg" alt="Soccer" style="width: 100%;">
+                    </div>
+
+                    <div class="mySlides">
+                            <img src="images/basketball.jpg" alt="Soccer" style="width: 100%;">
+                    </div>
+                
+
+                </div>
+                <br>
+               
+                
+         
+            
+               
+        
+        <div class="Foot">
+                
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentIndex(1)"><a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(2)"><a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(3)"><a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(4)"> <a href=""></a></span>
+                    <span class="dot" onclick="currentIndex(5)"><a href=""></a></span>
+                </div>
+                <div>
+                    <h1> SportsMate</h1>    
+                    <h4 class="productDescription"> SportsMate is an application for both mobile and desktop devices that allow users to connect with other individuals 
+                    in their area looking to organize a sports activity. Users will be able to see the sports demanded in their area, 
+                    as well as locations in their region that allows for the sport to be played.
+                </p>
+                </div>
+        </div>
+    </div>
+
+    <div class="form-popup">
+        <form class="form-container">
+            <h1> Login  </h1>
+            <label for="Email"><b>Email</b></label>
+            <input type="text" placeholder="Enter your Email" name="Email">
+            
+            <label for="psw"><b>Password</b></label>
+            <input type="text" placeholder="Enter your Password" name="psw">
+
+            <button type="submit" class="btn"><b>Login</b></button>
+            <button type="submit" class="btn cancel" onclick="closeLogin()"><b>Cancel</b></button>
+             
+
+        </form>
+    </div>
     
+
+
+        <script src="script.js"></script>
+           
+           
+        
      </body>
 </html>

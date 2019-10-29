@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <head>
-    <title>SportsMate</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
-    <script scr="script.js"></script>
-</head>
+        <head>
+                <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+                <title>SportsMate</title>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script scr="script.js"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            </head>
 
 <body>
+<<<<<<< HEAD
 
     <nav class="navBar">
         <a href="index.html"><img src="images/logo.png" height="50px" width="50px"></a>
@@ -24,9 +27,108 @@
   
 
 
+=======
+    
+    <div class="content">
+            <div class="navBar" class="topNav">
+                    <a href="index.html"><img src="images/logo.png" height="50px" width="50px" id="logoId" style="background-color: black; margin-left:5px;margin-right:5px;border-radius:10px;"></a>
+                    <h2>SportsMate</h2>
+                    <div class="topNav">
+                        <a href="index.html" class="active"><i class="fa fa-fw fa-home" ></i> Home</a> 
+                        <a href="features.html"><i class="fa fa-info-circle"></i> Features</a>
+                        <a href="team.html"><i class="fa fa-address-book"></i> Team</a> 
+                        <a href="pricing.html"><i class="fa fa-credit-card-alt"> Pricing</i></a>
+                        <a onclick="showLogin()"class="glyphicon glyphicon-user"id="login">Login</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                        </a> 
+                    </div>
+            </div>
+                <span class="pricing-header"><h2> PICK YOUR MEMBERSHIP  !!!</h2></span>
+                <div class="option-container">    
+                    <div class="Option1">
+                        <div class="top-option">
+                            <h2>STARTER</h2>
+                            <h3>FREE</h3>
+
+                        </div>
+                           <ul>
+                               <li>Feature1</li>
+                               <li>Feature2</li>
+                               <li>Feature3</li>
+                               
+                           </ul>
+                           <div class="start" style="margin-top:5%; font-size: 15pt;"> <b>SIGN UP</b> </div>     
+                        
+                    </div>
+                    <div class="Option2">
+                            <div class="top-option">
+                                    <h2>STANDARD</h2>
+                                    <h3>$5.99</h3>
+                            </div>
+            
+                            <ul>
+                                    <li>Feature1</li>
+                                    <li>Feature2</li>
+                                    <li>Feature3</li>
+                                    
+                                </ul>
+                            
+                                <div class="start" style="margin-top:5%; font-size: 15pt;"> <b>SIGN UP</b> </div>        
+            
+            
+            
+                    </div>
+                    
+                    <div class="Option3">
+                            <div class="top-option">
+                                    <h2>PREMIUM</h2>
+                                    <h3>$8.99</h3>
+                            </div>
+            
+                            <ul>
+                                    <li>Feature1</li>
+                                    <li>Feature2</li>
+                                    <li>Feature3</li>
+                                    
+                                </ul>
+                            
+                            <div class="start" style="margin-top:5%; font-size: 15pt;"> <b>SIGN UP</b> </div>     
+            
+            
+            
+                    </div>
+                    
+                </div>
+                   
 
 
-</body>
+
+    </div>
+    <script scr="script.js"></script>
+    <div class="form-popup">
+            <form class="form-container">
+                <h1> Login  </h1>
+                <label for="Email"><b>Email</b></label>
+                <input type="text" placeholder="Enter your Email" name="Email">
+                
+                <label for="psw"><b>Password</b></label>
+                <input type="text" placeholder="Enter your Password" name="psw">
+    
+                <button type="submit" class="btn"><b>Login</b></button>
+                <button type="submit" class="btn cancel" onclick="closeLogin()"><b>Cancel</b></button>
+                 
+    
+            </form>
+        </div>
+       
+    
+     
+>>>>>>> 528482b10fb9d10c6805f6a9302eaf8a9956807d
+
+
+            
+        </body>
 
 
     

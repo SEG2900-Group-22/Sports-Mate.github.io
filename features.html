@@ -7,74 +7,139 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script scr="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
-<body>
-    <div class="container">
-        <a class="logo" href="index.html"><img src="images/logo.png" height="50px" width="50px"></a>
-        <h2>SportsMate</h2>
-
-    
-        <div class="topNav" id="myTopNav">
-                <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i> Home</a> 
-                <a href="features.html"><i class="fa fa-info-circle"></i> Features</a>
-                <a href="team.html"><i class="fa fa-address-book"></i> Team</a> 
-                <a href="pricing.html"><i class="fa fa-credit-card-alt"> Pricing</i></a>
-                <a id="login">Login</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                </a>
-            </div>
-
-<section id="section1">
-        <div id="imgPlayer"><img src="images/football.jpg" alt="image" width="100%"></div>
-        <div class="players">
-            <div class="header">   <h1 style="font-size: 150%;">for PLAYERS...</h1> </div>
-            <div class="txt">
-                
-                   <ul>
-                    <li><h4>Find other players near you</h4></li>
-                    <li><h4>Interactive map allowing you to find the nearest playground</h4></li>
-                    <li><h4>Set favourite locations and share them</h4></li>
-                    <li><h4>Add friends and form groupchats</h4></li>
-                    <li><h4>Join and form teams</h4></li>
-                    <li><h4>Automatic pairing</h4></li>
-        
-        
-                   </ul>  
-        
-            </div>
-            
-        </div>
-        
-
-</section>
-
-
-<section id="section2">
-        <div id="imgOrganizer"><img src="images/soccer.jpg" alt="image"></div>
-        <div class="organizers">
-       
-                <div class="header">   <h1 style="font-size: 150%;">for ORGANIZERS...</h1> </div>
-                <div class="txt">
+    <body>
+           
+            <div class="content">
+                    <div class="navBar" class="topNav">
+                        <a href="index.html"><img src="images/logo.png" height="50px" width="50px" id="logoId" style="background-color: black; margin-left:5px;margin-right:5px;border-radius:10px;"></a>
+                        <h2>SportsMate</h2>
+                        <div class="topNav">
+                            <a href="index.html" class="active"><i class="fa fa-fw fa-home" ></i> Home</a> 
+                            <a href="features.html"><i class="fa fa-info-circle"></i> Features</a>
+                            <a href="team.html"><i class="fa fa-address-book"></i> Team</a> 
+                            <a href="pricing.html"><i class="fa fa-credit-card-alt"> Pricing</i></a>
+                            <a onclick="showLogin()"class="glyphicon glyphicon-user"id="login">Login</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                    <i class="fa fa-bars"></i>
+                            </a> 
+                    </div>
                     
-                       <ul>
-                        <li><h4>Form play groups directly from friends list</h4></li>
-                        <li><h4>Organize tournaments</h4></li>
-                        <li><h4>Vote for your team captain </h4></li>
-                        <li><h4> Set private matches</h4></li>
-                       </ul>  
+                    <span class="featureContainer">
+                        <div class="playerBox" >
+
+                            <h1> for PLAYERS</h1>
+                            <h4 id="hidden-content1">      Connect with people </h4>
+                            <a class="reference" href="#section1"><i class=down></i></a>
+
+                        </div>
+
+                        <div class="organizerBox">
+
+                            <h1>for ORGANIZERS</h1>
+
+                            <h4 id= "hidden-content2">       Build your sports network</h4>
+                            <a class="reference" href="#section2"><i class=down></i></a>
+
+                        </div>
+
+                    </span>
+                  
+
+                    <div id="section1">
+                        
+                        <div class="players">
+                            <div class="header">   <h1 style="font-size: 150%;">for PLAYERS...</h1> </div>
+                            <div class="txt">
+                                
+                                <ul>
+                                    <li><h4>Find other players near you</h4></li>
+                                    <li><h4>Find local events</h4></li>
+                                    <li><h4>Set favourite locations and share them</h4></li>
+                                    <li><h4>Build your sports network</h4></li>
+                                    <li><h4>Join and form teams</h4></li>
+                                    <li><h4>Automatic pairing</h4></li>
+                        
+                        
+                                </ul>  
+                        
+                            </div>
+                        
+                        </div>
+                    
+
+                    </div>
+
+                  
+                    <div id="section2">
+                           
+                            <div class="organizers">
+                        
+                                    <div class="header">   <h1 style="font-size: 150%; ">for ORGANIZERS...</h1> </div>
+                                    <div class="txt">
+                                        
+                                        <ul>
+                                            <li><h4>Group chat</h4></li>
+                                            <li><h4>Feedback</h4></li>
+                                            <li><h4>Team practices</h4></li>
+                                            <li><h4> Pick Team</h4></li>
+                                            <li><h4>Find and recruit players </h4></li>
+                                            <li><h4> Set private matches</h4></li>
+                                        </ul>  
+                                
+                                    </div>
+                                
+                                </div>
+                    </div>
+                
             
-                </div>
-               
+
             </div>
-</section>
+        </div>
+        <div class="parallax1"></div>
+        <div class="parallax2"></div>
+        <div class="parallax3"></div>
+            <div class="form-popup">
+                    <form class="form-container">
+                        <h1> Login  </h1>
+                        <label for="Email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter your Email" name="Email">
+                        
+                        <label for="psw"><b>Password</b></label>
+                        <input type="text" placeholder="Enter your Password" name="psw">
+            
+                        <button type="submit" class="btn"><b>Login</b></button>
+                        <button type="submit" class="btn cancel" onclick="closeLogin()"><b>Cancel</b></button>
+                        
+            
+                    </form>
+            </div>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+       <script>
+                          $("Document").ready(function(){
 
+                        $(".reference").on("click",function (event){
+                        if (this.hash!==""){
 
-</div>
+                            event.preventDefault();
+                            var hash=this.hash;
+                            $("html, body").animate({
+                                scrollTop: $(hash).offset().top},900,function(){
+                                window.location.hash=hash;
 
-</body>
+                                        });//end animate
+                                    };//end if
+                                });//end on click event function
+                            });//end ready function
 
+        </script>
+        
+        
+    </body>
 
+        
 
 
 
