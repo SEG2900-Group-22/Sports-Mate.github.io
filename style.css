@@ -356,7 +356,7 @@ text-align: left;
   background-color:white;
   border:1px solid lightslategray;
   position: absolute;
-  opacity:0.8;
+  opacity:0.9;
   left:0%;
   height:100%;
   padding:100px 0px;
@@ -375,7 +375,7 @@ text-align: left;
     width:33%;
     position: absolute;
     right:0%;
-    opacity:0.8;
+    opacity:0.9;
     text-align: left;
     height:100%;
     text-align: center;
@@ -418,7 +418,11 @@ text-align: left;
     border-color: white;
 
    }
-   .organizerBox:hover h4{
+   .organizerBox h4, .playerBox h4{
+   opacity: 0;
+
+   }
+   .organizerBox h4{
     white-space: nowrap;
     overflow: hidden;  
     animation:animation-text2 2s steps(30,end) 0s 1 normal both;
@@ -426,23 +430,23 @@ text-align: left;
     animation-delay: 0s;
     padding-right: 0vw;
    }
-   .playerBox:hover h4{
+   .playerBox h4{
     white-space: nowrap;
     padding-left: 10vw;
     padding-right: 0vw;
-  overflow: hidden;  
-  text-align: center;
+    overflow: hidden;  
+    text-align: center;
     animation:animation-text1 2s steps(30,end) 0s 1 normal both;
     animation-delay: 0s;
   }
   @keyframes animation-text1{
-    from{width:0vw;}
-    to{width:22vw};
+    from{width:0vw;opacity:1;}
+    to{width:22vw; opacity:1;}
     
   }
   @keyframes animation-text2{
-    from{width:0vw;}
-    to{width: 24.9vw;}
+    from{width:0vw; opacity:1;}
+    to{width: 24.9vw;opacity:1;}
     
   }
    html, body , .content{
@@ -481,3 +485,295 @@ text-align: left;
     background-position: center;
 
    }
+   .row{
+    width: 100%;
+    display: flex;
+    height:45vh;
+    margin:0% 0% 5% 0%;
+   }
+   .column{
+    width: 33%;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius:10px;
+    margin:5%;
+    transition: transform .2s;
+    height: 100%;
+    
+
+
+   }
+   .column:hover{
+      transform: scale(1.1);
+   }
+   #team-content2{
+    height: 75%;
+    z-index: 1;
+    top:0%; 
+    background-color: #000;
+    color:white;
+    display:none;
+
+
+   }
+   #team-content1{
+    height: 75%;
+    z-index: 1;
+    top:0%; 
+    background-color: #000;
+    color:white;
+    display:none;
+
+
+   }
+   #team-content3{
+    height: 75%;
+    z-index: 1;
+    top:0%; 
+    background-color: #000;
+    color:white;
+    display:none;
+
+
+   }
+   #team-content4{
+    height: 75%;
+    z-index: 1;
+    top:0%; 
+    background-color: #000;
+    color:white;
+    display:none;
+
+
+   }
+   #team-content5{
+    height: 75%;
+    z-index: 1;
+    top:0%; 
+    background-color: #000;
+    color:white;
+    display:none;
+
+
+   }
+   #team-content6{
+    height: 75%;
+    z-index: 1;
+    top:0%; 
+    background-color: #000;
+    color:white;
+    display:none;
+
+
+   }
+    
+   #txt2{
+      position:absolute;
+      display:none;
+      width: 20%;
+     color: white;
+      left:38%;
+      top:50%;
+
+
+   }
+   #txt1{
+    position:absolute;
+    display:none;
+    width: 20%;
+   color:white;
+    left:13%;
+    top:50%;
+
+
+ }
+ #txt3{
+  position:absolute;
+  display:none;
+  width: 20%;
+ color:white;
+  left:80%;
+  top:50%;
+
+
+}
+#txt4{
+  position:absolute;
+ display:none;
+  width: 20%;
+ color: white;
+  left:13%;
+  top:105%;
+
+
+}
+#txt5{
+  position:absolute;
+  display:none;
+  width: 20%;
+ color: white;
+  left:47%;
+  top:105%;
+
+
+}
+#txt6{
+  position:absolute;
+  display:none;
+  width: 20%;
+ color:white;
+  left:80%;
+  top:105%;
+
+
+}
+   
+   #info1{
+    position:absolute;
+    left:12%;
+    top:75%;
+    margin: 2% 0;
+   }
+   #info2{
+    position:absolute;
+    left:45%;
+    top:75%;
+    margin: 2% 0;
+   }
+   #info3{
+    position:absolute;
+    left:80%;
+    top:75%;
+    margin: 2% 0;
+   } #info4{
+    position:absolute;
+    left:12%;
+    top:130%;
+    margin: 2% 0;
+   }
+   #info5{
+    position:absolute;
+    left:47%;
+    top:130%;
+    margin: 2% 0;
+   }
+   #info6{
+    position:absolute;
+    left:80%;
+    top:130%;
+    margin: 2% 0;
+   }
+   #info1 h4, #info2 h4, #info3 h4, #info4 h4, #info5 h4, #info6 h4{
+    
+text-align: center;
+    
+   }
+   #person1{
+    background-image: url("images/Michael.JPEG");
+    width: 100%;
+    height: 75%;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    
+   }
+   #dan{
+    background-image: url("images/Dan.JPEG");
+    width: 100%;
+    height: 75%;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    
+   }
+   #person3{
+    background-image: url("images/Emma.JEG");
+    width: 100%;
+    height: 75%;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    
+   }
+   #person4{
+    background-image: url("images/Wyse.JPEG");
+    width: 100%;
+    height: 75%;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    
+   }
+   #person5{
+    background-image: url("images/Ranbir.JPEG");
+    width: 100%;
+    height: 75%;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    
+   }
+   #person6{
+    background-image: url("images/Farina.JPEG");
+    width: 100%;
+    height: 75%;
+    border-radius:8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    
+   }
+   .contact-form{
+    width: 50%;
+    height: 90%;
+    padding: 5% 5% 5% 5%;
+   position:absolute;
+   top:150%;
+    
+    background-color: #63C2BE;
+    margin-top: 10%;
+
+   }
+   .contact-form form ul{
+    width: 50%;
+    padding:0%;
+    margin:0%;
+
+   }
+   .contact-form form ul li{
+    width: 100%;
+    list-style-type:none;
+    margin:5% 0%;
+    color: white;
+
+   }
+   .contact-form form ul li h4{
+    margin:0% 5%;
+
+
+   }
+   
+   input#message{
+    margin-bottom:100px;
+
+   }
+   
+   .contact-form  form #comment input{
+
+    width:100%;
+    margin:2% 0%;
+
+
+   }
+    

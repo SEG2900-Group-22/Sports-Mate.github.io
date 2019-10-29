@@ -27,7 +27,8 @@ function closeLogin(){
     
     $(".form-popup").hide();
 
-}       
+} 
+      
 var myIndex = 0;
             
 var lastIndex=0;
