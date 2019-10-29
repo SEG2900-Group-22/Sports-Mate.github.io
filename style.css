@@ -634,36 +634,36 @@ text-align: left;
    #info1{
     position:absolute;
     left:12%;
-    top:75%;
+    top:70%;
     margin: 4% 0;
    }
    #info2{
     position:absolute;
     left:45%;
-    top:75%;
+    top:70%;
     margin: 4% 0;
    }
    #info3{
     position:absolute;
     left:80%;
-    top:75%;
+    top:70%;
     margin: 4% 0;
    } #info4{
     position:absolute;
     left:12%;
-    top:130%;
+    top:126%;
     margin: 4% 0;
    }
    #info5{
     position:absolute;
     left:47%;
-    top:130%;
+    top:126%;
     margin: 4% 0;
    }
    #info6{
     position:absolute;
     left:80%;
-    top:130%;
+    top:126%;
     margin: 4% 0;
    }
    #info1 h4, #info2 h4, #info3 h4, #info4 h4, #info5 h4, #info6 h4{
@@ -857,7 +857,7 @@ animation-duration: 2s;
   .Option1:hover, .Option2:hover, .Option3:hover{
     transform:scale(1.1);
   }
-  li{
+  .feat-list li{
     font-size: 14pt;
     margin-top:5%;
     padding:5% 0%;
@@ -870,7 +870,7 @@ animation-duration: 2s;
   p{
     font-size: 20pt;
   }
-  ul{
+  .feat-list{
     margin:0% 0% 4% 0%;
     padding:0%;
   }

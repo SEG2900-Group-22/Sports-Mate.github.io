@@ -35,7 +35,7 @@
                             <h3>FREE</h3>
 
                         </div>
-                           <ul>
+                           <ul class="feat-list">
                                <li>Feature1</li>
                                <li>Feature2</li>
                                <li>Feature3</li>
@@ -50,7 +50,7 @@
                                     <h3>$5.99</h3>
                             </div>
             
-                            <ul>
+                            <ul class="feat-list">
                                     <li>Feature1</li>
                                     <li>Feature2</li>
                                     <li>Feature3</li>
@@ -69,7 +69,7 @@
                                     <h3>$8.99</h3>
                             </div>
             
-                            <ul>
+                            <ul class="feat-list">
                                     <li>Feature1</li>
                                     <li>Feature2</li>
                                     <li>Feature3</li>
@@ -88,7 +88,7 @@
 
 
     </div>
-    <script scr="script.js"></script>
+    
     <div class="form-popup">
             <form class="form-container">
                 <h1> Login  </h1>
@@ -106,7 +106,28 @@
         </div>
        
     
-     
+        <script scr="script.js"></script>
+        <script>
+                        function showLogin(){
+                    
+                
+                    $(".content").css("filter","blur(2px)");
+                
+                    
+                    $(".form-popup").show();
+                    
+                
+
+                }
+                function closeLogin(){
+                    
+                    $(".form-popup").hide();
+
+                } 
+        
+        
+        
+        </script>
 
 
             
