@@ -635,36 +635,36 @@ text-align: left;
     position:absolute;
     left:12%;
     top:75%;
-    margin: 2% 0;
+    margin: 4% 0;
    }
    #info2{
     position:absolute;
     left:45%;
     top:75%;
-    margin: 2% 0;
+    margin: 4% 0;
    }
    #info3{
     position:absolute;
     left:80%;
     top:75%;
-    margin: 2% 0;
+    margin: 4% 0;
    } #info4{
     position:absolute;
     left:12%;
     top:130%;
-    margin: 2% 0;
+    margin: 4% 0;
    }
    #info5{
     position:absolute;
     left:47%;
     top:130%;
-    margin: 2% 0;
+    margin: 4% 0;
    }
    #info6{
     position:absolute;
     left:80%;
     top:130%;
-    margin: 2% 0;
+    margin: 4% 0;
    }
    #info1 h4, #info2 h4, #info3 h4, #info4 h4, #info5 h4, #info6 h4{
     
