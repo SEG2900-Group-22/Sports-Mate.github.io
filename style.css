@@ -3,12 +3,6 @@
 }
 
 /*Set background color, margin and font. Overflowing items scroll*/
-body {
-  background-color: #9FE3E2;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif,'';
-  overflow-y:scroll;
-}
 
  
 
@@ -953,6 +947,32 @@ display: inline-block;
 
 }
 
+.bodyStyle{
+  background: linear-gradient(150deg, #178e6f, #9b4b18);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
 
 
 
