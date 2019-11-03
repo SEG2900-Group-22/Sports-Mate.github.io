@@ -686,7 +686,7 @@ text-align: center;
     
    }
    #person1{
-    background-image: url("images/Michael.JPEG");
+    background-image: url("images/Emma.JPEG");
     width: 100%;
     height: 75%;
     border-radius:8px;
@@ -707,8 +707,8 @@ text-align: center;
 
     
    }
-   #person3{
-    background-image: url("images/Emma.JEG");
+   #michael{
+    background-image: url("images/Michael.jpg");
     width: 100%;
     height: 75%;
     border-radius:8px;
