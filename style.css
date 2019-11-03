@@ -948,7 +948,7 @@ display: inline-block;
 }
 
 .bodyStyle{
-  background: linear-gradient(150deg, rgba(28,194,131, 0.5), rgba(255, 255, 255, 0.5));
+  background: linear-gradient(150deg, rgba(28,194,131, 0.4), rgba(255, 255, 255, 0.5));
   background-size: 400% 400%;
   
   -webkit-animation: AnimationName 30s ease infinite;
