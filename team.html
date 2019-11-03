@@ -78,7 +78,7 @@
                         
                         <div class="column"  onmouseover="person(3)">
 
-                                <div id="michael"></div>   
+                                <div id="michael" ></div>   
                                     <div id="team-content3">   
 
 
@@ -89,8 +89,6 @@
 
                             </div>
                              <div id="txt3"><h4>
-                                 
-                             
                                 First year student looking to make an impact in the tech sector
                             </h4></div>
                             
@@ -109,10 +107,11 @@
                                  
                                  </div>    
                                  <div id="txt4"><h4>
-                                    First year software engineering student simply trying to learn as much as I can.
+                                    First year software engineering student 
+                                    simply trying to learn as much as I can.
     
                                     </h4></div> 
-                                 <span id="info4"> <h4>Wyse Ejih<br> Ebbah</h4></span>                       
+                                 <span id="info4"> <h4>Wyse Ejih Ebbah</h4></span>                       
                                  <div  class="column"  onmouseover="person(5)"> 
     
                                         <div id="person5"></div>
@@ -202,19 +201,9 @@
                 
                         <script src="script.js"></script>
                         <script>
-                            var p;
-                            
-
+                          
                        
-                            function person(n){
-                                p=n;
-                               changeFocus();
-
-                            }
-
-                          function changeFocus(){ 
-                            switch(p){
-                                case 1:
+                          
                                             $(".column:eq(0), #txt1, #info1").mouseover(function() {
                                         
                                         
@@ -229,6 +218,7 @@
                                         
 
 
+
                                     });
                                     $(".column:eq(0), #txt1").mouseleave(function() {
                                         $(".column:eq(0)").css("filter","none" )
@@ -239,8 +229,7 @@
 
                                     });
 
-                                break;
-                                case 2:
+                               
                                              
                                 
                                         $(".column:eq(1), #txt2, #info2").mouseover(function() {
@@ -272,38 +261,14 @@
                    
 
 
-                                break;
-                                case 3:
+                              
 
-                                $(".column:eq(2), #txt3, #info3").mouseover(function() {
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        $(".column:eq(2)").css("filter","blur(2px)" );
-                                    
-                                        $("#person3").hide();
-                                        $("#txt3").show();
-                                        $("#team-content3").show();
-                                        
-
-
-                                    });
-                                    $(".column:eq(2), #txt3").mouseleave(function() {
-                                        $(".column:eq(2)").css("filter","none" )
-                                        $("#team-content3").hide();
-                                        $("#txt3").hide();
-                                        $("#person3").show();
-
-
-                                    });
+                                       
 
 
 
-
-                                break;
-                                case 4:
+                         
+                             
                                 $(".column:eq(3), #txt4, #info4").mouseover(function() {
                                         
                                         
@@ -312,7 +277,7 @@
                                         
                                         $(".column:eq(3)").css("filter","blur(2px)" );
                                     
-                                        $("#person4").hide();
+                                        $("#wyse4").hide();
                                         $("#txt4").show();
                                         $("#team-content4").show();
                                         
@@ -329,8 +294,8 @@
                                     });
 
 
-                                break;
-                                case 5:
+                               
+                              
                                     $(".column:eq(4), #txt5, #info5").mouseover(function() {
                                             
                                             
@@ -356,8 +321,7 @@
                                         });
 
 
-                                break;
-                                case 6:
+                         
                                     $(".column:eq(5), #txt6, #info6").mouseover(function() {
                                             
                                             $(".column:eq(5)").css("filter","blur(2px)" );
@@ -379,23 +343,42 @@
                                         });
 
 
-                                break;
+                               
 
-                            }
-                        }
-
-
-
-
-
-
-
-                           
-                           
-                          
                         
-                        
-                        
+                         
+
+
+                                $(".column:eq(2), #txt3, #info3").mouseover(function() {
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        $(".column:eq(2)").css("filter","blur(2px)" );
+                                    
+                                        $("#michael").hide();
+                                        $("#txt3").show();
+                                        $("#team-content3").show();
+                                        
+
+
+                                    });
+
+
+
+
+
+                                    $(".column:eq(2), #txt3").mouseleave(function() {
+                                        $(".column:eq(2)").css("filter","none" )
+                                        $("#team-content3").hide();
+                                        $("#txt3").hide();
+                                        $("#michael").show();
+
+
+                                    });
+
+
                         
                         
                         </script>

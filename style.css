@@ -655,7 +655,7 @@ text-align: left;
  display:none;
   width: 20%;
  color: white;
-  left:15%;
+  left:7%;
   top:105%;
 
 
@@ -747,15 +747,17 @@ text-align: center;
    #michael{
     background-image: url("images/Michael.jpg");
     width: 100%;
+    
     height: 75%;
+  
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
 
+    background-position-y: 40%;
     
    }
-   #person4{
+   #wyse4{
     background-image: url("images/Wyse.JPEG");
     width: 100%;
     height: 75%;
