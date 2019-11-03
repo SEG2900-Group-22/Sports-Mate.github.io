@@ -217,6 +217,7 @@ flex-direction: right;
     text-align: center;
     animation-name: scaling;
     animation-duration: 4s;
+    text-shadow: 1px 1px;
   
   }
   .title2{
@@ -227,6 +228,7 @@ flex-direction: right;
     font-weight: bold;
     font-size: 90pt;
     color:#63C2BE;
+    text-shadow: 1px 1px;
     
     display: inline-block;
     text-align: center;
