@@ -70,6 +70,9 @@ x[myIndex-1].style.display="block";
 dots[myIndex-1].className+=" active";
 lastIndex=myIndex-1; 
 
+
+
+
 }
 function changeActive(){
     dots[lastIndex].className=dots[lastIndex].className.replace(" active","");

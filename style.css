@@ -54,11 +54,7 @@ h2{
   padding: 12px;
 }
 
-/*Procduct description is in white and centralised in the block*/
-.productDescription {
-  text-align: center;
-  color: #000000;
-}
+
 
 /*Logo floats on the left*/
 #logoId {
@@ -197,12 +193,50 @@ flex-direction: right;
 
 }
 .Foot{
-  padding-top:50px;
+  padding-top:1%;
   background-color:white ;
  position:fixed;
  bottom: 0;
   z-index:8;
+  width: 100%;
   
+  }
+  #keyword1:hover,  #keyword2:hover,  #keyword3:hover{
+
+    color:#63C2BE;
+  }
+  .title1{
+    position:fixed;
+    z-index: 3;
+    top:45vh;
+    left:28vw;
+    color:white;
+    font-weight: bold;
+    font-size: 90pt;
+    display: inline-block;
+    text-align: center;
+    animation-name: scaling;
+    animation-duration: 4s;
+  
+  }
+  .title2{
+    position:fixed;
+    z-index: 3;
+    top:45vh;
+    left:54vw;
+    font-weight: bold;
+    font-size: 90pt;
+    color:#63C2BE;
+    
+    display: inline-block;
+    text-align: center;
+    animation-name: scaling;
+    animation-duration: 4s;
+  }
+ 
+  @keyframes scaling{
+    from{transform:scale(0);}
+    to{transform:scale(1);}
   }
 .form-popup{
   display: none;
@@ -280,6 +314,7 @@ text-decoration: none;
 .header{
 background-color: lightskyblue;
  margin:0px;
+ margin-bottom: 5%;
  padding-top:20px;
  
   text-align: center;
@@ -292,12 +327,12 @@ opacity:0.8;
 
 
 .players{
-  
+  background-color:white;
   margin:0px;
   padding:0px;
   width:100%;
-
-
+  
+  border-radius: 20px;
 }
 .organizers{
   
@@ -318,16 +353,17 @@ text-align: left;
 
  
  #section1{
-  background-color:white;
+ 
   display:block;
   left: 0%;
   position: absolute;
-  top:125%;
-  padding-top:0px;
+  top:140%;
+
   
   width: 45%;
- 
+ padding-top:15%;
   margin-right:40px;
+  margin-top:0;
   
   opacity:0.8;
  
@@ -339,7 +375,7 @@ text-align: left;
   display:block;
   left: 0%;
   position: absolute;
-  top:240%;
+  top:290%;
 
   opacity:0.8;
   padding-top:0px;
@@ -474,7 +510,8 @@ text-align: left;
     height: 100%;
     
     
-   margin-top:15vh;
+    
+   margin-top:0;
 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -486,7 +523,7 @@ text-align: left;
     
     background-image:url("images/FeaturesImage2.jpg");
     
-    height: 111%;
+    height: 150%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -907,3 +944,12 @@ animation-duration: 2s;
     margin-bottom:0%;
 
   }
+.keyword{
+display: inline-block;
+
+}
+
+
+
+
+
