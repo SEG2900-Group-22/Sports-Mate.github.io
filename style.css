@@ -891,7 +891,7 @@ animation-duration: 2s;
     width: 33%;
     margin:1% 2%;
     margin-bottom:1%;
-   padding-bottom:0%;
+   padding-bottom:3%;
     text-align: center;
     transition:400ms;
     animation-name:zoomin;
@@ -904,8 +904,8 @@ animation-duration: 2s;
    margin-top:0%;
    background-color:#63C2BE;
    color:white;
-   padding-top:3%;
-   padding-bottom: 3%;
+   padding-top:1vh;
+   padding-bottom: 7vh;
 
   }
   .Option1:hover, .Option2:hover, .Option3:hover{
