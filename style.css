@@ -140,7 +140,7 @@ background-color: red;
  }
   .row {
     display: flex;
-    flex-direction: row;
+   
     flex-wrap: wrap;
     width: 100%;
     position: absolute;
@@ -538,14 +538,14 @@ text-align: left;
     width: 100%;
     display: flex;
     height:45vh;
-    margin:0% 0% 5% 0%;
+    margin:0% 0% 5% 3%;
    }
    .column{
     width: 33%;
     display: inline-block;
     border: 2px solid #000;
     border-radius:10px;
-    margin:5%;
+    margin:5% 2%;
     transition: transform .2s;
     height: 100%;
     
@@ -621,7 +621,7 @@ text-align: left;
       display:none;
       width: 20%;
      color: white;
-      left:41%;
+      left:39%;
       top:50%;
 
 
@@ -671,45 +671,46 @@ text-align: left;
   display:none;
   width: 20%;
  color:white;
-  left:74%;
+  left:76%;
   top:105%;
 
 
 }
    
    #info1{
-    position:absolute;
-    left:12%;
-    top:70%;
+    position:relative;
+    left:-17%;
+    top:79%;
     margin: 4% 0;
+    
    }
    #info2{
-    position:absolute;
-    left:45%;
-    top:70%;
+    position:relative;
+    left:-19%;
+    top:79%;
     margin: 4% 0;
    }
    #info3{
-    position:absolute;
-    left:80%;
-    top:70%;
+    position:relative;
+    left:-16%;
+    top:79%;
     margin: 4% 0;
    } #info4{
-    position:absolute;
-    left:12%;
-    top:126%;
+    position:relative;
+    left:-17%;
+    top:79%;
     margin: 4% 0;
    }
    #info5{
-    position:absolute;
-    left:44%;
-    top:126%;
+    position:relative;
+    left:-19%;
+    top:79%;
     margin: 4% 0;
    }
    #info6{
-    position:absolute;
-    left:80%;
-    top:126%;
+    position:relative;
+    left:-16%;
+    top:79%;
     margin: 4% 0;
    }
    #info1 h4, #info2 h4, #info3 h4, #info4 h4, #info5 h4, #info6 h4{
