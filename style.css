@@ -694,7 +694,7 @@ text-align: left;
     top:75%;
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
-    font-size:40px;
+    font-size:3em;
     color:black;
     text-shadow: 1px 1px 1px black;
    }
@@ -704,7 +704,7 @@ text-align: left;
     top:75%;
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
-    font-size:40px;
+    font-size:3em;
     color:black;
     text-shadow: 1px 1px 1px black;
    }
@@ -714,36 +714,36 @@ text-align: left;
     top:75%;
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
-    font-size:40px;
+    font-size:3em;
     color:black;
     text-shadow: 1px 1px 1px black;
    } #info4{
     position:absolute;
     left:8%;
-    top:137%;
+    top:130%;
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
-    font-size:40px;
+    font-size:3em;
     color:black;
     text-shadow: 1px 1px 1px black;
    }
    #info5{
     position:absolute;
     left:39.5%;
-    top:137%;
+    top:130%;
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
-    font-size:40px;
+    font-size:3em;
     color:black;
     text-shadow: 1px 1px 1px black;
    }
    #info6{
     position:absolute;
     left:78%;
-    top:137%;
+    top:130%;
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
-    font-size:40px;
+    font-size:3em;
     color:black;
     text-shadow: 1px 1px 1px black;
    }
