@@ -206,7 +206,7 @@ flex-direction: right;
     left:28vw;
     color:white;
     font-weight: bold;
-    font-size: 8.5em;
+    font-size: 8.3em;
     display: inline-block;
     text-align: center;
     animation-name: scaling;
@@ -220,7 +220,7 @@ flex-direction: right;
     top:45vh;
     left:54vw;
     font-weight: bold;
-    font-size: 8.5em;
+    font-size: 8.3em;
     color:#63C2BE;
     text-shadow: 2px 2px black;
     
@@ -862,6 +862,11 @@ animation-duration: 2s;
   @keyframes zoomin{
     from{transform:scaleZ(0.8);}
     to{transform:scaleZ(1)}
+
+  }
+  .top-option h3{
+    font-size:1.6em;
+
 
   }
   .Option3{
