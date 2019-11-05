@@ -139,7 +139,7 @@ background-color: red;
  }
   .row {
     display: flex;
-    flex-direction: row;
+   
     flex-wrap: wrap;
     width: 100%;
     position: absolute;
@@ -205,7 +205,7 @@ flex-direction: right;
     left:28vw;
     color:white;
     font-weight: bold;
-    font-size: 90pt;
+    font-size: 8.3em;
     display: inline-block;
     text-align: center;
     animation-name: scaling;
@@ -219,7 +219,7 @@ flex-direction: right;
     top:45vh;
     left:54vw;
     font-weight: bold;
-    font-size: 90pt;
+    font-size: 8.3em;
     color:#63C2BE;
     text-shadow: 2px 2px black;
     
@@ -537,13 +537,13 @@ text-align: left;
     width: 100%;
     display: flex;
     height:45vh;
-    margin:0% 0% 5% 0%;
+    margin:0% 0% 5% 3%;
    }
    .column{
     width: 33%;
     display: inline-block;
     border-radius:10px;
-    margin:5%;
+    margin:5% 2%;
     transition: transform .2s;
     height: 100%;
 
@@ -620,12 +620,18 @@ text-align: left;
       display:none;
       width: 20%;
      color: white;
+<<<<<<< HEAD
       left:41%;
       top:46%;
       font-size:30px;
       text-shadow: 5px 5px 5px black;
       font-family: 'Catamaran', sans-serif; 
   
+=======
+      left:39%;
+      top:60%;
+
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
 
    }
    #txt1{
@@ -634,10 +640,14 @@ text-align: left;
     width: 20%;
    color:white;
     left:8%;
+<<<<<<< HEAD
     top:50%;
     font-size:30px;
     text-shadow: 5px 5px 5px black;
     font-family: 'Catamaran', sans-serif;
+=======
+    top:60%;
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
 
 
   }
@@ -647,10 +657,15 @@ text-align: left;
   width: 20%;
  color:white;
   left:74%;
+<<<<<<< HEAD
   top:48%;
   font-size:30px;
   text-shadow: 5px 5px 5px black;
   font-family: 'Catamaran', sans-serif;
+=======
+  top:60%;
+
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
 
 }
 #txt4{
@@ -659,10 +674,15 @@ text-align: left;
   width: 20%;
  color: white;
   left:7%;
+<<<<<<< HEAD
   top:102%;
   font-size:30px;
   text-shadow: 5px 5px 5px black;
   font-family: 'Catamaran', sans-serif;
+=======
+  top:115%;
+
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
 
 }
 #txt5{
@@ -671,10 +691,15 @@ text-align: left;
   width: 20%;
  color: white;
   left:41%;
+<<<<<<< HEAD
   top:105%;
   font-size:30px;
   text-shadow: 5px 5px 5px black;
   font-family: 'Catamaran', sans-serif;
+=======
+  top:115%;
+
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
 
 }
 #txt6{
@@ -682,6 +707,7 @@ text-align: left;
   display:none;
   width: 20%;
  color:white;
+<<<<<<< HEAD
   left:74%;
   top:100%;
   font-size:30px;
@@ -695,8 +721,15 @@ text-align: left;
   font-family: 'Raleway', sans-serif;
   font-weight:bold;
   color:#39807d;
+=======
+  left:76%;
+  top:115%;
+
+
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
 }
    #info1{
+<<<<<<< HEAD
     position:absolute;
     left:11%;
     top:64%;
@@ -710,6 +743,18 @@ text-align: left;
     position:absolute;
     left:43%;
     top:62%;
+=======
+    position:relative;
+    left:-17%;
+    top:83%;
+    margin: 4% 0;
+    
+   }
+   #info2{
+    position:relative;
+    left:-20%;
+    top:83%;
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
     font-size:40px;
@@ -717,18 +762,30 @@ text-align: left;
     text-shadow: 1px 1px 1px black;
    }
    #info3{
+<<<<<<< HEAD
     position:absolute;
     left:75%;
     top:62%;
+=======
+    position:relative;
+    left:-18%;
+    top:83%;
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
     font-size:40px;
     color:black;
     text-shadow: 1px 1px 1px black;
    } #info4{
+<<<<<<< HEAD
     position:absolute;
     left:8%;
     top:117%;
+=======
+    position:relative;
+    left:-17%;
+    top:83%;
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
     font-size:40px;
@@ -736,9 +793,15 @@ text-align: left;
     text-shadow: 1px 1px 1px black;
    }
    #info5{
+<<<<<<< HEAD
     position:absolute;
     left:39.5%;
     top:117%;
+=======
+    position:relative;
+    left:-19%;
+    top:83%;
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
     font-size:40px;
@@ -746,9 +809,15 @@ text-align: left;
     text-shadow: 1px 1px 1px black;
    }
    #info6{
+<<<<<<< HEAD
     position:absolute;
     left:78%;
     top:117%;
+=======
+    position:relative;
+    left:-16%;
+    top:83%;
+>>>>>>> 0c58a822a485063dacce1492ad8f814ec2e93b00
     margin: 4% 0;
     font-family: 'Raleway', sans-serif;
     font-size:40px;
@@ -906,6 +975,11 @@ animation-duration: 2s;
     to{transform:scaleZ(1)}
 
   }
+  .top-option h3{
+    font-size:1.6em;
+
+
+  }
   .Option3{
     background-color:white ;
     border:2px solid slategray;
@@ -928,7 +1002,7 @@ animation-duration: 2s;
     width: 33%;
     margin:1% 2%;
     margin-bottom:1%;
-   padding-bottom:0%;
+   padding-bottom:3%;
     text-align: center;
     transition:400ms;
     animation-name:zoomin;
@@ -941,8 +1015,8 @@ animation-duration: 2s;
    margin-top:0%;
    background-color:#63C2BE;
    color:white;
-   padding-top:3%;
-   padding-bottom: 3%;
+   padding-top:1vh;
+   padding-bottom: 7vh;
 
   }
   .Option1:hover, .Option2:hover, .Option3:hover{
