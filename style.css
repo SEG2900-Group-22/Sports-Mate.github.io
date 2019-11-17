@@ -539,6 +539,8 @@ text-align: left;
     height:45vh;
     margin:0% 0% 5% 0%;
    }
+   
+   
    .column{
     width: 33%;
     display: inline-block;
@@ -548,11 +550,21 @@ text-align: left;
     height: 100%;
 
     
-
-
+    
+    
    }
+
+   .column
    .column:hover{
-      transform: scale(1.1);
+     /* transform: scale(1.1); */
+     width: 33%; /* Not really sure what to do with this code... doesn't do anything but was trying to blur */
+     height: 100%;
+     -webkit-filter: blur(15px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(15px);
+     
    }
    #team-content2{
     height: 75%;
@@ -620,8 +632,8 @@ text-align: left;
       display:none;
       width: 20%;
      color: white;
-      left:41%;
-      top:46%;
+      left:38%;
+      top:50%;
       font-size:30px;
       text-shadow: 5px 5px 5px black;
       font-family: 'Catamaran', sans-serif; 
@@ -658,7 +670,7 @@ text-align: left;
  display:none;
   width: 20%;
  color: white;
-  left:7%;
+  left:8%;
   top:102%;
   font-size:30px;
   text-shadow: 5px 5px 5px black;
@@ -670,7 +682,7 @@ text-align: left;
   display:none;
   width: 20%;
  color: white;
-  left:41%;
+  left:40%;
   top:105%;
   font-size:30px;
   text-shadow: 5px 5px 5px black;
@@ -680,9 +692,9 @@ text-align: left;
 #txt6{
   position:absolute;
   display:none;
-  width: 20%;
+  width: 18%;
  color:white;
-  left:74%;
+  left:75%;
   top:100%;
   font-size:30px;
   text-shadow: 5px 5px 5px black;
@@ -754,72 +766,190 @@ text-align: left;
        }
    #farina{
     background-image: url("images/farina.jpg");
-    width: 100%;
-    height: 75%;
+    width: 20%;
+    height: 40%;
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 
+    position: absolute;
+    left: -400px;
     
+    -webkit-animation: farina 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: farina 0.5s forwards;
+    animation-delay: 2s;
    }
+
+ 
+   @-webkit-keyframes farina {
+    100% { left: 0; }
+  }
+@keyframes farina {
+    100% { left: 150px; }
+
+}
    #dan{
     background-image: url("images/Dan.JPEG");
-    width: 100%;
-    height: 75%;
+    width: 20%;
+    height: 40%;
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 
+    position: absolute;
+    top: -400px;
+    
+    -webkit-animation: dan 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: dan 0.5s forwards;
+    animation-delay: 2s;
     
    }
+   @-webkit-keyframes dan {
+    100% { top: 0; }
+  }
+  @keyframes dan {
+    100% { top: 400px; }
+}
+
+   
    #michael{
-    background-image: url("images/Michael.jpg");
-    width: 100%;
+  /*  background-image: url("images/Michael.jpg"); */
+    width: 18%;
     
-    height: 75%;
-  
+    height: 40%;
+    
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
 
     background-position-y: 40%;
+
+
+    position: absolute;
+    right: -400px;
+    
+    -webkit-animation: michael 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: michael 0.5s forwards;
+    animation-delay: 2s;
+
+
     
    }
+
+  .blur background-image{
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.blur background-image:hover {
+  -webkit-filter: blur(15px);
+  -moz-filter: all .25s ease;
+  -o-filter: all .25s ease;
+  -ms-filter: all .25s ease;
+  filter: blur(15px);
+}
+
+   @-webkit-keyframes michael {
+    100% { right: 0; }
+  }
+@keyframes michael {
+    100% { right: 150px; }
+
+}
+
+
+
    #wyse{
     background-image: url("images/wyse\ \(2\).JPEG");
-    width: 100%;
-    height: 75%;
+    width: 20%;
+    height: 37%;
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
   
     background-position:top;
+
+
+    position: absolute;
+    left: -400px;
     
+    -webkit-animation: wyse 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: wyse 0.5s forwards;
+    animation-delay: 2s;
+
+
    }
+
+   @-webkit-keyframes wyse {
+    100% { left: 0; }
+  }
+@keyframes wyse {
+    100% { left: 150px; }
+
+}
    #emma{
     background-image: url("images/emma.png");
-    width: 100%;
-    height: 75%;
+    width: 20%;
+    height: 40%;
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 
+    position: absolute;
+    bottom: -1000px;
+    
+    -webkit-animation: emma 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: emma 0.5s forwards;
+    animation-delay: 2s;
+
     
    }
+   @-webkit-keyframes emma {
+    100% { bottom: 0; }
+  }
+@keyframes emma {
+    100% { bottom: -333px; }
+
+}
    #ranbir{
     background-image: url("images/ranbir.jpg");
-    width: 100%;
-    height: 75%;
+    width: 18%;
+    height: 40%;
     border-radius:8px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 
     
+    position: absolute;
+    right: -400px;
+    
+    -webkit-animation: ranbir 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: ranbir 0.5s forwards;
+    animation-delay: 2s;
+
+
+    
    }
+   @-webkit-keyframes ranbir {
+    100% { right: 0; }
+  }
+@keyframes ranbir {
+    100% { right: 150px; }
+
+}
+
    .contact-form{
     width: 50%;
     height: 90%;
@@ -1022,3 +1152,6 @@ display: inline-block;
 
   background-color: aquamarine;
 }
+
+
+

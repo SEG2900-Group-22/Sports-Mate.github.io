@@ -35,7 +35,7 @@
                                <h1 style="color:#63C2BE; font-size: 5em;">Meet the Team</h1> 
                     </div>
                     
-                    <span class="row1">
+                    <span class="row1" >
                         <div class="column"  onmouseover="person(1)">
                             <div id="farina"></div>
                                 <div id="team-content1">   
@@ -54,23 +54,14 @@
 
                             <span id="info1"> Farina Salman</span>
                              
-                              
-                                
-                        
+                    
                         
                         
                             <div class="column" onmouseover="person(2)"> 
                                     <div id="dan"></div>
                                     <div id="team-content2">   
 
-
-                                        
-
-                                    </div>
-
-
-
-                          
+                                    </div>   
                         </div>
                         <div id="txt2">
                                 Passionate software engineering student.
@@ -79,17 +70,14 @@
                         <span id="info2"> Dan Stéphane<br> Ngendahayo</span>
                         
                         
-                        <div class="column"  onmouseover="person(3)">
-
-                                <div id="michael" ></div>   
+                        <div class="column" onmouseover="person(3)">
+                                <div class="blur"> 
+                                    
+                                
+                                <div id="michael" style="background-image: url(images/Michael.jpg)" ></div>   
                                     <div id="team-content3">   
-
-
-                                        
-
                                         </div>
-                         
-
+                         </div>
                             </div>
                              <div id="txt3">
                                 First year student looking to make an impact in the tech sector
@@ -102,9 +90,6 @@
                             <div class="column"  onmouseover="person(4)">
                                     <div id="wyse"></div>
                                 <div id="team-content4">   
-
-
-                                        
 
                                     </div>
                                  
@@ -131,12 +116,9 @@
                                 </div>
                             <span id="info5"> Emma Dobson Takoff</span>
                                 
-                            <div class="column"  onmouseover="person(6)">
+                            <div class="column"  onmouseover="">
                                     <div id="ranbir"></div>
                                 <div id="team-content6">   
-
-
-
 
                                         </div> 
                                     </div>
@@ -211,11 +193,8 @@
                           
                                             $(".column:eq(0), #txt1, #info1").mouseover(function() {
                                         
-                                        
-                                        
-                                        
-                                        
-                                        $(".column:eq(0)").css("filter","blur(2px)" );
+                               
+                                    /*    $(".column:eq(0)").css("filter","blur(2px)" ); */
                                     
                                         $("#farina").show();
                                         $("#txt1").show();
@@ -243,7 +222,7 @@
                                             
                                             
                                             
-                                            $(".column:eq(1)").css("filter","blur(2px)" );
+                                            /*$(".column:eq(1)").css("filter","blur(2px)" );*/
                                         
                                             $("#dan").show();
                                             $("#txt2").show();
@@ -262,16 +241,6 @@
                                         });
 
                        
-
-                   
-
-
-                              
-
-                                       
-
-
-
                          
                              
                                 $(".column:eq(3), #txt4, #info4").mouseover(function() {
@@ -280,7 +249,7 @@
                                         
                                         
                                         
-                                        $(".column:eq(3)").css("filter","blur(2px)" );
+                                    /*    $(".column:eq(3)").css("filter","blur(2px)" );  This code breaks with slide in animation for everyone  */
                                     
                                         $("#wyse").show();
                                         $("#txt4").show();
@@ -289,7 +258,7 @@
 
 
                                     });
-                                    $(".column:eq(3), #txt4").mouseleave(function() {
+                                    $(".column:eq(3), #txt4").mouseleave(function() {       
                                         $(".column:eq(3)").css("filter","none" )
                                         $("#team-content4").hide();
                                         $("#txt4").hide();
@@ -307,7 +276,7 @@
                                             
                                             
                                             
-                                            $(".column:eq(4)").css("filter","blur(2px)" );
+                                         /*   $(".column:eq(4)").css("filter","blur(2px)" ); */
                                         
                                             $("#emma").show();
                                             $("#txt5").show();
@@ -329,7 +298,7 @@
                          
                                     $(".column:eq(5), #txt6, #info6").mouseover(function() {
                                             
-                                            $(".column:eq(5)").css("filter","blur(2px)" );
+                                         /*   $(".column:eq(5)").css("filter","blur(2px)" ); */
                                         
                                             $("#ranbir").show();
                                             $("#txt6").show();
@@ -360,9 +329,9 @@
                                         
                                         
                                         
-                                        $(".column:eq(2)").css("filter","blur(2px)" );
+                                     /*  $(".column:eq(2)").css("filter","blur(2px)" ); 
                                     
-                                        $("#michael").show();
+                                       /* $("#michael").show(); */
                                         $("#txt3").show();
                                         $("#team-content3").show();
                                         
@@ -376,9 +345,9 @@
 
                                     $(".column:eq(2), #txt3").mouseleave(function() {
                                         $(".column:eq(2)").css("filter","none" )
-                                        $("#team-content3").hide();
+                                        $("#team-content3").hide(); 
                                         $("#txt3").hide();
-                                        $("#michael").show();
+                                        $("#michael").show(); 
 
 
                                     });
