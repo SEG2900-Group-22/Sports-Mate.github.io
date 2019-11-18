@@ -549,12 +549,13 @@ text-align: left;
     transition: transform .2s;
     height: 100%;
 
-    
+ 
     
     
    }
+   
 
-   .column
+   
    .column:hover{
      /* transform: scale(1.1); */
      width: 33%; /* Not really sure what to do with this code... doesn't do anything but was trying to blur */
