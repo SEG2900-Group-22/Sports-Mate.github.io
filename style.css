@@ -819,7 +819,7 @@ text-align: left;
    #michael{
   /*  background-image: url("images/Michael.jpg"); */
     width: 18%;
-    
+    background-image: url("images/Michael.jpg");
     height: 40%;
     
     border-radius:8px;
@@ -837,24 +837,37 @@ text-align: left;
     animation: michael 0.5s forwards;
     animation-delay: 2s;
 
-
-    
+    /*
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    transition: .4s ease-in-out;
+    */
    }
 
-  .blur background-image{
-  -webkit-transition: all .25s ease;
+  .blur{
+    
+  /*-webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -o-transition: all .25s ease;
   -ms-transition: all .25s ease;
-  transition: all .25s ease;
+  transition: all .25s ease;*/
+  height: 150px;
+  width: 238px;
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+  transition: .4s ease-in-out;
 }
-.blur background-image:hover {
-  -webkit-filter: blur(15px);
+.blur:hover {
+/*-webkit-filter: blur(15px);
   -moz-filter: all .25s ease;
   -o-filter: all .25s ease;
   -ms-filter: all .25s ease;
-  filter: blur(15px);
+  filter: blur(15px); */
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(0%) blur(2px);
+  transition: .4s ease-in-out;
 }
+
 
    @-webkit-keyframes michael {
     100% { right: 0; }
@@ -1118,7 +1131,7 @@ display: inline-block;
 }
 
 .bodyStyle{
-  background: linear-gradient(150deg, rgba(28,194,131, 0.4), rgba(255, 255, 255, 0.5));
+  background: linear-gradient(150deg, rgba(28, 194, 130, 0.3), rgba(255, 255, 255, 0.5));
   background-size: 400% 400%;
   
   -webkit-animation: AnimationName 30s ease infinite;
